@@ -1,0 +1,16 @@
+{
+  "name": "nodetesttask",
+  "version": "1.0.0",
+  "description": "Node js test task",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "lodash": "^4.17.15"
+  }
+}

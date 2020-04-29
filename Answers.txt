@@ -1,0 +1,26 @@
+1) Explain the difference between an abstract class and an interface
+a. The abstract class can have abstract and non abstract method whereas the interface can only have abstract methods.
+
+2) What is the purpose of getters and setters in a class
+a. The getter and setter methods are used to get and set the class properties. Using these methods we can control how the class properties are accessed and manipulated.
+
+3) Explain the purpose of black box testing
+a. The black box testing is used to check performance of the application. It is used to test application's capacity to handle load in optimal time.
+
+4) In your opinion what are the benefits of test cases
+a.
+  - Test cases helps to improve code quality.
+  - It helps to maintain consistency of the code.
+  - It also helps in review process as the reviewer can see the different scenarios of the functionality by checking the test cases.
+  - It also makes system performance evaluation a bit easier.
+
+5) What is an error first callback, and what is the reason for this pattern existing?
+a. When error is the first argument of the callback function it is known as error first callback.
+   In my opinion the reason for this pattern is that we can expect error as first argument and if there is no error then we can pass null or undefined in first param of callback.
+   and we do not need to pass any other param if there is any error.
+
+6) Explain the difference between fs.readSync and fs.read (File System module in Nodejs).
+a. fs.read function will read file asynchronously from the storage whereas fs.readSync will read the file synchronously
+
+7) What tasks do you feel should be done asynchronously
+a. In my opinion when there is no dependencies between the task we should do this asynchronously
